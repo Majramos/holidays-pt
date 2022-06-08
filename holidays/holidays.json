@@ -1,0 +1,1218 @@
+{
+    "holidays": {
+        "esn0001": {
+            "country": "ES", "extent": "national", "label": "Ano Nuevo",
+            "type": "f", "codes": [1, 1, 0], "calculate": "january 1st"
+        },
+        "esn0002": {
+            "country": "ES", "extent": "national", "label": "Epifania del Senor",
+            "type": "f", "codes": [1, 6, 0], "calculate": "january 6th"
+        },
+        "esn0003": {
+            "country": "ES", "extent": "national", "label": "Viernes Santo",
+            "type": "e", "codes": [-2, 0, 0], "calculate": "friday right before sunday easter"
+        },
+        "esn0004": {
+            "country": "ES", "extent": "national", "label": "Pascoa",
+            "type": "e", "codes": [0, 0, 0], "calculate": "easter sunday"
+        },
+        "esn0005": {
+            "country": "ES", "extent": "national", "label": "Fiesta del Trabajo",
+            "type": "f", "codes": [5, 1, 0], "calculate": "may 1st"
+        },
+        "esn0006": {
+            "country": "ES", "extent": "national", "label": "Asuncion de la Virgen Maria",
+            "type": "f", "codes": [8, 15, 0], "calculate": "august 15th"
+        },
+        "esn0007": {
+            "country": "ES", "extent": "national", "label": "Fiesta Nacional de Espana/Dia de la Hispanidad",
+            "type": "f", "codes": [10, 12, 0], "calculate": "october 12th"
+        },
+        "esn0008": {
+            "country": "ES", "extent": "national", "label": "Todos los Santos",
+            "type": "f", "codes": [11, 1, 0], "calculate": "november 1st"
+        },
+        "esn0009": {
+            "country": "ES", "extent": "national", "label": "Dia de la Constitucion Espanola",
+            "type": "f", "codes": [12, 6, 0], "calculate": "december 6th"
+        },
+        "esn0010": {
+            "country": "ES", "extent": "national", "label": "Inmaculada Concepcion",
+            "type": "f", "codes": [12, 8, 0], "calculate": "december 8th"
+        },
+        "esn0011": {
+            "country": "ES", "extent": "national", "label": "Natividad del Senor",
+            "type": "f", "codes": [12, 25, 0], "calculate": "december 25th"
+        },
+        "esr0001": {
+            "country": "ES", "extent": "regional", "label": "Dia de Andalucia",
+            "type": "f", "codes": [2, 28, 0], "calculate": "february 28th"
+        },
+        "esr0002": {
+            "country": "ES", "extent": "regional", "label": "Dia de las Islas Baleares",
+            "type": "f", "codes": [3, 1, 0], "calculate": "march 1st"
+        },
+        "esr0003": {
+            "country": "ES", "extent": "regional", "label": "San Jose", 
+            "type": "f", "codes": [3, 19, 0], "calculate": "march 19th"
+        },
+        "esr0004": {
+            "country": "ES", "extent": "regional", "label": "Jueves Santo", 
+            "type": "e", "codes": [-3, 0, 0], "calculate": "thursday right before sunday easter"
+        },
+        "esr0005": {
+            "country": "ES", "extent": "regional", "label": "Dia de Aragon",
+            "type": "f", "codes": [4, 23, 0], "calculate": "april 23th"
+        },
+        "esr0006": {
+            "country": "ES", "extent": "regional", "label": "Dia de San Jorge",
+            "type": "f", "codes": [4, 23, 0], "calculate": "april 23th"
+        },
+        "esr0007": {
+            "country": "ES", "extent": "regional", "label": "Fiesta de la Comunidad",
+            "type": "f", "codes": [5, 2, 0], "calculate": "may 2nd"
+        },
+        "esr0008": {
+            "country": "ES", "extent": "regional", "label": "San Isidro",
+            "type": "f", "codes": [5, 15, 0], "calculate": "may 15th"
+        },
+        "esr0009": {
+            "country": "ES", "extent": "regional", "label": "Corpus Crist", 
+            "type": "e", "codes": [60, 0, 0], "calculate": "60 days after sunday easter, on a thursday"
+        },
+        "esr0010": {
+            "country": "ES", "extent": "regional", "label": "Fiesta de Santiago Apostol",
+                    "type": "f", "codes": [7, 25, 0], "calculate": "july 25th"
+        },
+        "esr0011": {
+            "country": "ES", "extent": "regional", "label": "Dia de Cantabria/la Montana", 
+                    "type": "m", "codes": [8, 1, 6], "calculate": "second saturday of the month of august"
+        },
+        "esr0012": {
+            "country": "ES", "extent": "regional", "label": "Dia de la Almudena",
+                    "type": "f", "codes": [11, 9, 0], "calculate": "november 9th"
+        },
+        "ptn0001": {
+            "country": "PT", "extent": "national", "label": "Ano Novo",
+                    "type": "f", "codes": [1, 1, 0], "calculate": "january 1st"
+        },
+        "ptn0002": {
+            "country": "PT", "extent": "national", "label": "Carnaval",
+                    "type": "e", "codes": [-47, 0, 0], "calculate": "47 days before easter sunday on a tuesday"
+        },
+        "ptn0003": {
+            "country": "PT", "extent": "national", "label": "Sexta-Feira Santa",
+                    "type": "e", "codes": [-2, 0, 0], "calculate": "friday right before easter sunday"
+        },
+        "ptn0004": {
+            "country": "PT", "extent": "national", "label": "Pascoa",
+                    "type": "e", "codes": [0, 0, 0], "calculate": "easter sunday"
+        },
+        "ptn0005": {
+            "country": "PT", "extent": "national", "label": "25 de Abril",
+                    "type": "f", "codes": [4, 25, 0], "calculate": "april 25th"
+        },
+        "ptn0006": {
+            "country": "PT", "extent": "national", "label": "Dia do Trabalhador",
+            "type": "f", "codes": [5, 1, 0], "calculate": "may 1th"
+        },
+        "ptn0007": {
+            "country": "PT", "extent": "national", "label": "Dia de Portugal",
+            "type": "f", "codes": [6, 10, 0], "calculate": "june 10th"
+        },
+        "ptn0008": {
+            "country": "PT", "extent": "national", "label": "Corpo de Deus",
+            "type": "e", "codes": [60, 0, 0], "calculate": "60 days after easter sunday, on a thursday"
+        },
+        "ptn0009": {
+            "country": "PT", "extent": "national", "label": "Assuncao Maria",
+            "type": "f", "codes": [8, 15, 0], "calculate": "august 15th"
+        },
+        "ptn0010": {
+            "country": "PT", "extent": "national", "label": "Implatacao da Republica",
+            "type": "f", "codes": [10, 5, 0], "calculate": "october 5th"
+        },
+        "ptn0011": {
+            "country": "PT", "extent": "national", "label": "Todos os Santos", 
+            "type": "f", "codes": [11, 1, 0], "calculate": "november 1st"
+        },
+        "ptn0012": {
+            "country": "PT", "extent": "national", "label": "Restauracao da Independencia",
+            "type": "f", "codes": [12, 1, 0], "calculate": "december 1st"
+        },
+        "ptn0013": {
+            "country": "PT", "extent": "national", "label": "Imaculada Conceicao",
+            "type": "f", "codes": [12, 8, 0], "calculate": "december 8th"
+        },
+        "ptn0014": {
+            "country": "PT", "extent": "national", "label": "Natal",
+            "type": "f", "codes": [12, 25, 0], "calculate": "december 25th"
+        },
+        "ptr0001": {
+            "country": "PT", "extent": "regional", "label": "Sao Geraldo", 
+            "type": "e", "codes": [50, 0, 0], "calculate": "monday after pentacost sunday"
+        },
+        "ptr0002": {
+            "country": "PT", "extent": "regional", "label": "Segunda-feira da Senhora do Socorro", 
+            "type": "m", "codes": [8, 3, 0], "calculate": "monday after third sunday of august"
+        },
+        "ptr0003": {
+            "country": "PT", "extent": "regional", "label": "Quinta-feira da Ascensao/Dia da Espiga", 
+            "type": "e", "codes": [39, 0, 0], "calculate": "sixth thursday after easter sunday"
+        },
+        "ptr0004": {
+            "country": "PT", "extent": "regional", "label": "Rainha Santa Mafalda",
+            "type": "f", "codes": [5, 2, 0], "calculate": "may 2nd"
+        },
+        "ptr0005": {
+            "country": "PT", "extent": "regional", "label": "Santa Joana Princesa",
+            "type": "f", "codes": [5, 12, 0], "calculate": "may 12th"
+        },
+        "ptr0006": {
+            "country": "PT", "extent": "regional", "label": "Sao Joao",
+            "type": "f", "codes": [6, 24, 0], "calculate": "june 24th"
+        },
+        "ptr0007": {
+            "country": "PT", "extent": "regional", "label": "Elevacao a cidade de Espinho",
+            "type": "f", "codes": [6, 16, 0], "calculate": "june 16th"
+        },
+        "ptr0008": {
+            "country": "PT", "extent": "regional", "label": "Santo Antonio",
+            "type": "f", "codes": [6, 13, 0], "calculate": "june 13th"
+        },
+        "ptr0009": {
+            "country": "PT", "extent": "regional", "label": "Sao Sebastiao",
+            "type": "f", "codes": [1, 20, 0], "calculate": "january 20th"
+        },
+        "ptr0010": {
+            "country": "PT", "extent": "regional", "label": "Segunda-feira de Pascoa",
+            "type": "e", "codes": [1, 0, 0], "calculate": "monday after easter"
+        },
+        "ptr0011": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora da Natividade",
+            "type": "f", "codes": [9, 8, 0], "calculate": "september 8th"
+        },
+        "ptr0012": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora de La Salette",
+            "type": "m", "codes": [8, 2, 0], "calculate": "monday after first sunday of august"
+        },
+        "ptr0013": {
+            "country": "PT", "extent": "regional", "label": "Sao Cristovao",
+            "type": "f", "codes": [7, 25, 0], "calculate": "july 25th"
+        },
+        "ptr0014": {
+            "country": "PT", "extent": "regional", "label": "Elevacao a cidade e fundacao do municipio",
+            "type": "f", "codes": [10, 11, 0], "calculate": "october 11th"
+        },
+        "ptr0015": {
+            "country": "PT", "extent": "regional", "label": "Sao Mateus",
+            "type": "f", "codes": [9, 21, 0], "calculate": "september 21th"
+        },
+        "ptr0016": {
+            "country": "PT", "extent": "regional", "label": "Divino Espirito Santo",
+            "type": "e", "codes": [50, 0, 0], "calculate": "50 days after easter sunday"
+        },
+        "ptr0017": {
+            "country": "PT", "extent": "regional", "label": "Festa de Nossa Senhora da Conceicao",
+            "type": "f", "codes": [8, 28, 0], "calculate": "august 28th"
+        },
+        "ptr0018": {
+            "country": "PT", "extent": "regional", "label": "Sao Pedro",
+            "type": "f", "codes": [6, 29, 0], "calculate": "june 29th"
+        },
+        "ptr0019": {
+            "country": "PT", "extent": "regional", "label": "Outorgacao do foral manuelino",
+            "type": "f", "codes": [3, 5, 0], "calculate": "march 5th"
+        },
+        "ptr0020": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora da Piedade",
+            "type": "f", "codes": [9, 8, 0], "calculate": "september 8th"
+        },
+        "ptr0021": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora da Cola",
+            "type": "f", "codes": [9, 8, 0], "calculate": "september 8th"
+        },
+        "ptr0022": {
+            "country": "PT", "extent": "regional", "label": "Santa Cruz",
+            "type": "f", "codes": [5, 3, 0], "calculate": "may 5th"
+        },
+        "ptr0023": {
+            "country": "PT", "extent": "regional", "label": "Sao Miguel Arcanjo",
+            "type": "f", "codes": [9, 29, 0], "calculate": "september 29th"
+        },
+        "ptr0024": {
+            "country": "PT", "extent": "regional", "label": "Sao Tiago",
+            "type": "f", "codes": [7, 25, 0], "calculate": "july 25th"
+        },
+        "ptr0025": {
+            "country": "PT", "extent": "regional", "label": "Elevacao Esposende a categoria de vila",
+            "type": "f", "codes": [8, 19, 0], "calculate": "august 19th"
+        },
+        "ptr0026": {
+            "country": "PT", "extent": "regional", "label": "Feiras Francas",
+            "type": "f", "codes": [5, 16, 0], "calculate": "may 16th"
+        },
+        "ptr0027": {
+            "country": "PT", "extent": "regional", "label": "Batalha de Sao Mamede (1128)",
+            "type": "f", "codes": [6, 24, 0], "calculate": "june 24th"
+        },
+        "ptr0028": {
+            "country": "PT", "extent": "regional", "label": "Sao Jose",
+            "type": "f", "codes": [3, 19, 0], "calculate": "march 19th"
+        },
+        "ptr0029": {
+            "country": "PT", "extent": "regional", "label": "Foral de D. Manuel I (1514)",
+            "type": "f", "codes": [10, 20, 0], "calculate": "october 20th"
+        },
+        "ptr0030": {
+            "country": "PT", "extent": "regional", "label": "Encerramento da tradicional Feira da Ladra",
+            "type": "m", "codes": [10, 1, 0], "calculate": "monday after first saturday of october"
+        },
+        "ptr0031": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora das Gracas",
+            "type": "f", "codes": [8, 22, 0], "calculate": "august 22th"
+        },
+        "ptr0032": {
+            "country": "PT", "extent": "regional", "label": "Elevacao de Miranda do Douro a cidade",
+            "type": "f", "codes": [7, 10, 0], "calculate": "july 10th"
+        },
+        "ptr0033": {
+            "country": "PT", "extent": "regional", "label": "Recebimento do Foral de D. Afonso III (1250)",
+            "type": "f", "codes": [5, 25, 0], "calculate": "may 25th"
+        },
+        "ptr0034": {
+            "country": "PT", "extent": "regional", "label": "Feira dos Gorazes",
+            "type": "f", "codes": [10, 15, 0], "calculate": "october 15th"
+        },
+        "ptr0035": {
+            "country": "PT", "extent": "regional", "label": "Sao Bartolomeu",
+            "type": "f", "codes": [8, 24, 0], "calculate": "august 24th"
+        },
+        "ptr0036": {
+            "country": "PT", "extent": "regional", "label": "Sao Lourenco",
+            "type": "f", "codes": [8, 10, 0], "calculate": "august 10th"
+        },
+        "ptr0037": {
+            "country": "PT", "extent": "regional", "label": "Outorgacao do foral manuelino",
+            "type": "f", "codes": [5, 20, 0], "calculate": "may 20th"
+        },
+        "ptr0038": {
+            "country": "PT", "extent": "regional", "label": "Primeira missa no Brasil",
+            "type": "f", "codes": [4, 26, 0], "calculate": "april 26th"
+        },
+        "ptr0039": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora de Mercoles",
+            "type": "e", "codes": [9, 0, 0], "calculate": "tuesday from second week after sunday easter"
+        },
+        "ptr0040": {
+            "country": "PT", "extent": "regional", "label": "Elevacao Covilha a cidade",
+            "type": "f", "codes": [10, 20, 0], "calculate": "october 20th"
+        },
+        "ptr0041": {
+            "country": "PT", "extent": "regional", "label": "Santa Luzia",
+            "type": "f", "codes": [9, 15, 0], "calculate": "september 15th"
+        },
+        "ptr0042": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora do Almortao",
+            "type": "e", "codes": [15, 0, 0], "calculate": "third monday after easter"
+        },
+        "ptr0043": {
+            "country": "PT", "extent": "regional", "label": "Santa Margarida",
+            "type": "e", "codes": [8, 2, 0], "calculate": "monday after second sunday of august"
+        },
+        "ptr0044": {
+            "country": "PT", "extent": "regional", "label": "Sao Nuno de Santa Maria (1360)",
+            "type": "f", "codes": [6, 24, 0], "calculate": "june 24th"
+        },
+        "ptr0045": {
+            "country": "PT", "extent": "regional", "label": "Recebimento do foral de D. Dinis",
+            "type": "f", "codes": [9, 19, 0], "calculate": "september 19th"
+        },
+        "ptr0046": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora da Alagada", 
+            "type": "m", "codes": [8, 4, 0], "calculate": "monday after forth sunday of august"
+        },
+        "ptr0047": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora do Mont Alto",
+            "type": "f", "codes": [9, 7, 0], "calculate": "september 7th"
+        },
+        "ptr0048": {
+            "country": "PT", "extent": "regional", "label": "Rainha Santa Isabel",
+            "type": "f", "codes": [7, 4, 0], "calculate": "july 4th"
+        },
+        "ptr0049": {
+            "country": "PT", "extent": "regional", "label": "Santa Cristina",
+            "type": "f", "codes": [7, 24, 0], "calculate": "july 24th"
+        },
+        "ptr0050": {
+            "country": "PT", "extent": "regional", "label": "Doacao de Gois a Anaia Vestrares",
+            "type": "f", "codes": [8, 13, 0], "calculate": "august 13th"
+        },
+        "ptr0051": {
+            "country": "PT", "extent": "regional", "label": "Sao Tome",
+            "type": "f", "codes": [7, 25, 0], "calculate": "july 25th"
+        },
+        "ptr0052": {
+            "country": "PT", "extent": "regional", "label": "Nascimento de Jose Falcao (1841)",
+            "type": "f", "codes": [6, 1, 0], "calculate": "june 1st"
+        },
+        "ptr0053": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora da Vitoria",
+            "type": "f", "codes": [9, 8, 0], "calculate": "september 8th"
+        },
+        "ptr0054": {
+            "country": "PT", "extent": "regional", "label": "Recebimento da noticia da Implantacao da Republica",
+            "type": "f", "codes": [10, 7, 0], "calculate": "october 7th"
+        },
+        "ptr0055": {
+            "country": "PT", "extent": "regional", "label": "Restauracao dos titulos de vila isenta",
+            "type": "f", "codes": [4, 10, 0], "calculate": "april 10th"
+        },
+        "ptr0056": {
+            "country": "PT", "extent": "regional", "label": "Nascimento de António Jose de Almeida",
+            "type": "f", "codes": [7, 17, 0], "calculate": "july 17th"
+        },
+        "ptr0057": {
+            "country": "PT", "extent": "regional", "label": "Restauracao da Comarca",
+            "type": "f", "codes": [4, 10, 0], "calculate": "april 10th"
+        },
+        "ptr0058": {
+            "country": "PT", "extent": "regional", "label": "Restauracao do municipio",
+            "type": "f", "codes": [1, 13, 0], "calculate": "january 13th"
+        },
+        "ptr0059": {
+            "country": "PT", "extent": "regional", "label": "Segunda-feira de Pascoela/Nossa Senhora da Boa Nova", 
+            "type": "e", "codes": [8, 0, 0], "calculate": "monday after easter"
+        },
+        "ptr0060": {
+            "country": "PT", "extent": "regional", "label": "Sao Joao de Deus",
+            "type": "f", "codes": [3, 8, 0], "calculate": "march 8th"
+        },
+        "ptr0061": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora das Candeias",
+            "type": "f", "codes": [2, 2, 0], "calculate": "february 2nd"
+        },
+        "ptr0062": {
+            "country": "PT", "extent": "regional", "label": "Elevacao de Vendas Novas a municipio",
+            "type": "f", "codes": [9, 7, 0], "calculate": "september 7th"
+        },
+        "ptr0063": {
+            "country": "PT", "extent": "regional", "label": "Nascimento de Couto Jardim",
+            "type": "f", "codes": [8, 16, 0], "calculate": "august 16th"
+        },
+        "ptr0064": {
+            "country": "PT", "extent": "regional", "label": "Foral de D. Manuel I (1504)",
+            "type": "f", "codes": [8, 20, 0], "calculate": "august 20th"
+        },
+        "ptr0065": {
+            "country": "PT", "extent": "regional", "label": "Dia do Municipio",
+            "type": "m", "codes": [9, 1, 4], "calculate": "second monday of september"
+        },
+        "ptr0066": {
+            "country": "PT", "extent": "regional", "label": "Banho Santo",
+            "type": "f", "codes": [8, 29, 0], "calculate": "august 29th"
+        },
+        "ptr0067": {
+            "country": "PT", "extent": "regional", "label": "Elevacao de Faro a cidade/Santa Maria de Faro",
+            "type": "f", "codes": [9, 7, 0], "calculate": "september 7th"
+        },
+        "ptr0068": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora da Luz",
+            "type": "f", "codes": [9, 8, 0], "calculate": "september 8th"
+        },
+        "ptr0069": {
+            "country": "PT", "extent": "regional", "label": "Sao Goncalo de Lagos",
+            "type": "f", "codes": [10, 27, 0], "calculate": "october 27th"
+        },
+        "ptr0070": {
+            "country": "PT", "extent": "regional", "label": "Revolta de Olhao contra os Franceses (1808)",
+            "type": "f", "codes": [6, 16, 0], "calculate": "june 16th"
+        },
+        "ptr0071": {
+            "country": "PT", "extent": "regional", "label": "Elevacao de Portimao a cidade (1924)",
+            "type": "f", "codes": [12, 11, 0], "calculate": "december 11th"
+        },
+        "ptr0072": {
+            "country": "PT", "extent": "regional", "label": "Elevacao de Sao Bras de Alportel a cidade (1914)",
+            "type": "f", "codes": [6, 1, 0], "calculate": "june 1st"
+        },
+        "ptr0073": {
+            "country": "PT", "extent": "regional", "label": "Conquista da cidade aos mouros",
+            "type": "f", "codes": [9, 3, 0], "calculate": "september 3rd"
+        },
+        "ptr0074": {
+            "country": "PT", "extent": "regional", "label": "Sao Vicente",
+            "type": "f", "codes": [1, 22, 0], "calculate": "january 22th"
+        },
+        "ptr0075": {
+            "country": "PT", "extent": "regional", "label": "Elevação de Vila Real de Santo Antonio a cidade",
+            "type": "f", "codes": [5, 13, 0], "calculate": "may 13th"
+        },
+        "ptr0076": {
+            "country": "PT", "extent": "regional", "label": "Restauracao do concelho de Aguiar da Beira",
+            "type": "f", "codes": [2, 10, 0], "calculate": "february 10th"
+        },
+        "ptr0077": {
+            "country": "PT", "extent": "regional", "label": "Batalha do Coa (1810)",
+            "type": "f", "codes": [7, 2, 0], "calculate": "july 2nd"
+        },
+        "ptr0078": {
+            "country": "PT", "extent": "regional", "label": "Nascimento de Sacadura Cabral",
+            "type": "f", "codes": [5, 23, 0], "calculate": "may 23th"
+        },
+        "ptr0079": {
+            "country": "PT", "extent": "regional", "label": "Batalha de Salgadela (1664)",
+            "type": "f", "codes": [7, 7, 0], "calculate": "july 7th"
+        },
+        "ptr0080": {
+            "country": "PT", "extent": "regional", "label": "Nosso Senhor do Calvario", 
+            "type": "m", "codes": [8, 2, 0], "calculate": "monday after second sunday of august"
+        },
+        "ptr0081": {
+            "country": "PT", "extent": "regional", "label": "Foral de D. Sancho I (1199)",
+            "type": "f", "codes": [11, 27, 0], "calculate": "november 27th"
+        },
+        "ptr0082": {
+            "country": "PT", "extent": "regional", "label": "Atribuicao do foral",
+            "type": "f", "codes": [3, 4, 0], "calculate": "march 4th"
+        },
+        "ptr0083": {
+            "country": "PT", "extent": "regional", "label": "Sao Martinho",
+            "type": "f", "codes": [11, 11, 0], "calculate": "november 11th"
+        },
+        "ptr0084": {
+            "country": "PT", "extent": "regional", "label": "Elevacao de Pinhel a cidade (2007)",
+            "type": "f", "codes": [8, 25, 0], "calculate": "august 25th"
+        },
+        "ptr0085": {
+            "country": "PT", "extent": "regional", "label": "Segunda-feira de Pascoela/Nossa Senhora dos Prazeres/Nossa Senhora da Graça)", 
+            "type": "e", "codes": [8, 0, 0], "calculate": "second monday after easter"},
+        "ptr0086": {
+            "country": "PT", "extent": "regional", "label": "Elevacao de Seia a cidade",
+            "type": "f", "codes": [7, 3, 0], "calculate": "may 3rd"
+        },
+        "ptr0087": {
+            "country": "PT", "extent": "regional", "label": "Batalha de Sao Marcos (1385)",
+            "type": "f", "codes": [5, 29, 0], "calculate": "may 29th"
+        },
+        "ptr0088": {
+            "country": "PT", "extent": "regional", "label": "Outorgacao do foral de D. Dinis",
+            "type": "f", "codes": [5, 21, 0], "calculate": "may 21th"
+        },
+        "ptr0089": {
+            "country": "PT", "extent": "regional", "label": "Sao Bernardo",
+            "type": "f", "codes": [8, 20, 0], "calculate": "august 20th"
+        },
+        "ptr0090": {
+            "country": "PT", "extent": "regional", "label": "Batalha de Aljubarrota (1385)",
+            "type": "f", "codes": [8, 14, 0], "calculate": "august 14th"
+        },
+        "ptr0091": {
+            "country": "PT", "extent": "regional", "label": "Fundacao da localidade pela rainha D. Leonor",
+            "type": "f", "codes": [5, 15, 0], "calculate": "may 15th"
+        },
+        "ptr0092": {
+            "country": "PT", "extent": "regional", "label": "Instalacao do municipio",
+            "type": "f", "codes": [7, 4, 0], "calculate": "july 4th"
+        },
+        "ptr0093": {
+            "country": "PT", "extent": "regional", "label": "Passagem a cidade e criacao da diocese",
+            "type": "f", "codes": [5, 22, 0], "calculate": "may 22th"
+        },
+        "ptr0094": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora das Areias (ou da Nazare)",
+            "type": "f", "codes": [9, 8, 0], "calculate": "september 8th"
+        },
+        "ptr0095": {
+            "country": "PT", "extent": "regional", "label": "Tomada de Obidos aos mouros",
+            "type": "f", "codes": [1, 11, 0], "calculate": "january 11th"
+        },
+        "ptr0096": {
+            "country": "PT", "extent": "regional", "label": "Criacao do municipio",
+            "type": "f", "codes": [7, 24, 0], "calculate": "july 24th"
+        },
+        "ptr0097": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora da Boa Viagem", 
+            "type": "m", "codes": [8, 1, 0], "calculate": "monday after first sunday of august"
+        },
+        "ptr0098": {
+            "country": "PT", "extent": "regional", "label": "Criacao do municipio",
+            "type": "f", "codes": [8, 26, 0], "calculate": "august 26th"
+        },
+        "ptr0099": {
+            "country": "PT", "extent": "regional", "label": "Criacao do municipio (1759)",
+            "type": "f", "codes": [6, 7, 0], "calculate": "july 7th"
+        },
+        "ptr0100": {
+            "country": "PT", "extent": "regional", "label": "Criacao do municipio",
+            "type": "f", "codes": [9, 11, 0], "calculate": "september 11th"
+        },
+        "ptr0101": {
+            "country": "PT", "extent": "regional", "label": "Criacao do municipio",
+            "type": "f", "codes": [11, 19, 0], "calculate": "november 19th"
+        },
+        "ptr0102": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora da Luz",
+            "type": "e", "codes": [1, 0, 0], "calculate": "monday after easter"
+        },
+        "ptr0103": {
+            "country": "PT", "extent": "regional", "label": "Sao Gregorio",
+            "type": "e", "codes": [1, 0, 0], "calculate": "monday after easter"
+        },
+        "ptr0104": {
+            "country": "PT", "extent": "regional", "label": "Batalha das Linhas de Elvas (1659)",
+            "type": "f", "codes": [1, 14, 0], "calculate": "january 14th"
+        },
+        "ptr0105": {
+            "country": "PT", "extent": "regional", "label": "Batalha dos Atoleiros",
+            "type": "f", "codes": [4, 6, 0], "calculate": "april 6th"
+        },
+        "ptr0106": {
+            "country": "PT", "extent": "regional", "label": "Recebimento do foral manuelino",
+            "type": "f", "codes": [11, 23, 0], "calculate": "november 23th"
+        },
+        "ptr0107": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora da Estrela",
+            "type": "f", "codes": [9, 8, 0], "calculate": "september 8th"
+        },
+        "ptr0108": {
+            "country": "PT", "extent": "regional", "label": "Segunda-feira de Pascoela/Nossa Senhora dos Prazeres", 
+            "type": "e", "codes": [8, 0, 0], "calculate": "second monday after easter"
+        },
+        "ptr0109": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora da Graca",
+            "type": "e", "codes": [1, 0, 0], "calculate": "monday after easter"
+        },
+        "ptr0110": {
+            "country": "PT", "extent": "regional", "label": "Elevacao Portalegre a cidade e criacao da diocese",
+            "type": "f", "codes": [5, 23, 0], "calculate": "may 23th"
+        },
+        "ptr0111": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora do Carmo da Serra (de Sao Miguel)", 
+            "type": "e", "codes": [1, 0, 0], "calculate": "monday after easter"
+        },
+        "ptr0112": {
+            "country": "PT", "extent": "regional", "label": "Elevacao Amarante a cidade",
+            "type": "f", "codes": [7, 8, 0], "calculate": ""
+        },
+        "ptr0113": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora do Rosario",
+            "type": "m", "codes": [10, 1, 0], "calculate": "monday after first sunday of october"
+        },
+        "ptr0114": {
+            "country": "PT", "extent": "regional", "label": "Nosso Senhor dos Aflitos",
+            "type": "s", "codes": [7, 0, 0], "calculate": "monday after last sunday of july"
+        },
+        "ptr0115": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora do Bom Despacho",
+            "type": "m", "codes": [7, 2, 0], "calculate": "monday after second sunday of july"
+        },
+        "ptr0116": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora do Castelinho",
+            "type": "f", "codes": [9, 8, 0], "calculate": "september 8th"
+        },
+        "ptr0117": {
+            "country": "PT", "extent": "regional", "label": "Terca-feira de Pentecostes",
+            "type": "e", "codes": [51, 0, 0], "calculate": "tuesday after sunday of pentacoste"
+        },
+        "ptr0118": {
+            "country": "PT", "extent": "regional", "label": "Criacao do municipio",
+            "type": "f", "codes": [11, 6, 0], "calculate": "november 6th"
+        },
+        "ptr0119": {
+            "country": "PT", "extent": "regional", "label": "Divino Salvador",
+            "type": "m", "codes": [7, 3, 0], "calculate": "monday after third sunday of july"
+        },
+        "ptr0120": {
+            "country": "PT", "extent": "regional", "label": "Sao Bento",
+            "type": "f", "codes": [7, 11, 0], "calculate": "july 11th"
+        },
+        "ptr0121": {
+            "country": "PT", "extent": "regional", "label": "Elevacao Abrantes a cidade (1916)",
+            "type": "f", "codes": [6, 14, 0], "calculate": "june 14th"
+        },
+        "ptr0122": {
+            "country": "PT", "extent": "regional", "label": "Criacao do municipio",
+            "type": "f", "codes": [4, 2, 0], "calculate": "april 2nd"
+        },
+        "ptr0123": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora da Boa Viagem",
+            "type": "e", "codes": [1, 0, 0], "calculate": "monday after easter"
+        },
+        "ptr0124": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora do Castelo",
+            "type": "f", "codes": [8, 17, 0], "calculate": "august 17th"
+        },
+        "ptr0125": {
+            "country": "PT", "extent": "regional", "label": "Criacao do municipio Entroncamento (1945)",
+            "type": "f", "codes": [11, 24, 0], "calculate": "november 24th"
+        },
+        "ptr0126": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora de Fatima",
+            "type": "f", "codes": [5, 13, 0], "calculate": "may 13th"
+        },
+        "ptr0127": {
+            "country": "PT", "extent": "regional", "label": "Elevacao Sardoal a categoria de vila",
+            "type": "f", "codes": [9, 22, 0], "calculate": "september 22th"
+        },
+        "ptr0128": {
+            "country": "PT", "extent": "regional", "label": "Fundacao do Castelo Templario",
+            "type": "f", "codes": [3, 1, 0], "calculate": "march 1st"
+        },
+        "ptr0129": {
+            "country": "PT", "extent": "regional", "label": "Elevacao a cidade Ourem/Praia da Vitoria",
+            "type": "f", "codes": [6, 28, 0], "calculate": "june 28th"
+        },
+        "ptr0130": {
+            "country": "PT", "extent": "regional", "label": "Elevacao Barreiro a cidade",
+            "type": "f", "codes": [6, 28, 0], "calculate": "june 28th"
+        },
+        "ptr0131": {
+            "country": "PT", "extent": "regional", "label": "Criacao do municipio de Grandola atraves do foral",
+            "type": "f", "codes": [10, 22, 0], "calculate": "october 22th"
+        },
+        "ptr0132": {
+            "country": "PT", "extent": "regional", "label": "Festas em Honra de Nossa Senhora da Boa Viagem",
+            "type": "m", "codes": [9, 2, 1], "calculate": "tuesday after second sunday of september"
+        },
+        "ptr0133": {
+            "country": "PT", "extent": "regional", "label": "Atribuicao do foral manuelino (1512) Palmela",
+            "type": "f", "codes": [6, 1, 0], "calculate": "june 1st"
+        },
+        "ptr0134": {
+            "country": "PT", "extent": "regional", "label": "Nosso Senhor Jesus das Chagas",
+            "type": "f", "codes": [5, 4, 0], "calculate": "may 4th"
+        },
+        "ptr0135": {
+            "country": "PT", "extent": "regional", "label": "Nascimento de Bocage",
+            "type": "f", "codes": [9, 15, 0], "calculate": "september 15th"
+        },
+        "ptr0136": {
+            "country": "PT", "extent": "regional", "label": "Elevacao Sines a vila (1362)",
+            "type": "f", "codes": [11, 24, 0], "calculate": "november 24th"
+        },
+        "ptr0137": {
+            "country": "PT", "extent": "regional", "label": "Atribuicao do foral a Moncao",
+            "type": "f", "codes": [3, 12, 0], "calculate": "march 12th"
+        },
+        "ptr0138": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora das Dores",
+            "type": "f", "codes": [9, 20, 0], "calculate": "september 20th"
+        },
+        "ptr0139": {
+            "country": "PT", "extent": "regional", "label": "Sao Teotonio",
+            "type": "f", "codes": [2, 18, 0], "calculate": "february 18th"
+        },
+        "ptr0140": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora da Agonia",
+            "type": "f", "codes": [8, 20, 0], "calculate": "august 20th"
+        },
+        "ptr0141": {
+            "country": "PT", "extent": "regional", "label": "Recebimento do foral manuelino Vila Nova de Cerveira",
+            "type": "f", "codes": [10, 1, 0], "calculate": "october 1st"
+        },
+        "ptr0142": {
+            "country": "PT", "extent": "regional", "label": "1 Incursao Monarquica (1912) Chaves",
+            "type": "f", "codes": [7, 8, 0], "calculate": "july 8th"
+        },
+        "ptr0143": {
+            "country": "PT", "extent": "regional", "label": "Santo Andre",
+            "type": "f", "codes": [11, 30, 0], "calculate": "november 30th"
+        },
+        "ptr0144": {
+            "country": "PT", "extent": "regional", "label": "Atribuicao do foral Montalegre",
+            "type": "f", "codes": [6, 9, 0], "calculate": "june 9th"
+        },
+        "ptr0145": {
+            "country": "PT", "extent": "regional", "label": "Criacao do municipio Murça",
+            "type": "f", "codes": [5, 8, 0], "calculate": "may 8th"
+        },
+        "ptr0146": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora do Socorro",
+            "type": "f", "codes": [8, 16, 0], "calculate": "august 16th"
+        },
+        "ptr0147": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora do Rosario",
+            "type": "f", "codes": [9, 8, 0], "calculate": "september 8th"
+        },
+        "ptr0148": {
+            "country": "PT", "extent": "regional", "label": "Atribuicao do foral manuelino Vila Pouca de Aguiar",
+            "type": "f", "codes": [6, 22, 0], "calculate": "june 22th"
+        },
+        "ptr0149": {
+            "country": "PT", "extent": "regional", "label": "",
+            "type": "m", "codes": [7, 3, 0], "calculate": "monday after third sunday of july"
+        },
+        "ptr0150": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora dos Remedios",
+            "type": "f", "codes": [9, 8, 0], "calculate": "september 8th"
+        },
+        "ptr0151": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora do Castelo",
+            "type": "f", "codes": [9, 8, 0], "calculate": "september 8th"
+        },
+        "ptr0152": {
+            "country": "PT", "extent": "regional", "label": "Restauracao do municipio Oliveira de Frades",
+            "type": "f", "codes": [10, 7, 0], "calculate": "october 7th"
+        },
+        "ptr0153": {
+            "country": "PT", "extent": "regional", "label": "Sao Genesio",
+            "type": "f", "codes": [8, 25, 0], "calculate": "august 25th"
+        },
+        "ptr0154": {
+            "country": "PT", "extent": "regional", "label": "Festa de Nossa Senhora ao Pe da Cruz",
+            "type": "f", "codes": [5, 3, 0], "calculate": "may 3rd"
+        },
+        "ptr0155": {
+            "country": "PT", "extent": "regional", "label": "Santa Eufemia",
+            "type": "f", "codes": [9, 16, 0], "calculate": "september 16th"
+        },
+        "ptr0156": {
+            "country": "PT", "extent": "regional", "label": "Estabelecimento e denominacao da sede de concelho",
+             "type": "f", "codes": [3, 2, 0], "calculate": "march 2nd"
+        },
+        "ptr0157": {
+            "country": "PT", "extent": "regional", "label": "Sao Frei Gil",
+            "type": "f", "codes": [5, 14, 0], "calculate": "may 14th"
+        },
+        "ptr0158": {
+            "country": "PT", "extent": "regional", "label": "Santo Amaro",
+            "type": "f", "codes": [1, 15, 0], "calculate": "january 15th"
+        },
+        "ptr0159": {
+            "country": "PT", "extent": "regional", "label": "Santa Maria Madalena",
+            "type": "f", "codes": [7, 22, 0], "calculate": "july 22th"
+        },
+        "ptr0160": {
+            "country": "PT", "extent": "regional", "label": "Criacao do municipio Porto Santo (1835)",
+            "type": "f", "codes": [6, 24, 0], "calculate": "june 24th"
+        },
+        "ptr0161": {
+            "country": "PT", "extent": "regional", "label": "Criacao do municipio Santana (1835)",
+            "type": "f", "codes": [5, 25, 0], "calculate": "may 25th"
+        },
+        "ptr0162": {
+            "country": "PT", "extent": "regional", "label": "Elevacao Funchal a cidade",
+            "type": "f", "codes": [8, 21, 0], "calculate": "august 21th"
+        },
+        "ptr0163": {
+            "country": "PT", "extent": "regional", "label": "Criacao do municipio Camara de Lobos",
+            "type": "f", "codes": [10, 4, 0], "calculate": "october 4th"
+        },
+        "ptr0164": {
+            "country": "PT", "extent": "regional", "label": "Criacao da Capitania de Machico",
+            "type": "f", "codes": [10, 9, 0], "calculate": "october 9th"
+        },
+        "ptr0165": {
+            "country": "PT", "extent": "regional", "label": "Sao Roque", 
+            "type": "f", "codes": [8, 16, 0], "calculate": "august 16th"
+        },
+        "ptr0166": {
+            "country": "PT", "extent": "regional", "label": "Criacao do municipio Lajes do Pico",
+            "type": "f", "codes": [6, 29, 0], "calculate": "june 29th"
+        },
+        "ptr0167": {
+            "country": "PT", "extent": "regional", "label": "Elevacao a vila e sede de concelho (1832)",
+            "type": "f", "codes": [6, 20, 0], "calculate": "june 20th"
+        },
+        "ptr0168": {
+            "country": "PT", "extent": "regional", "label": "Criacao do municipio de Lagoa",
+            "type": "f", "codes": [4, 11, 0], "calculate": "april 11th"
+        },
+        "ptr0169": {
+            "country": "PT", "extent": "regional", "label": "Sao Jorge",
+            "type": "f", "codes": [4, 23, 0], "calculate": "april 23th"
+        },
+        "ptr0170": {
+            "country": "PT", "extent": "regional", "label": "Fundacao do municipio de Nordeste (1514)",
+            "type": "f", "codes": [7, 18, 0], "calculate": "july 18th"
+        },
+        "ptr0171": {
+            "country": "PT", "extent": "regional", "label": "Santa Catarina",
+            "type": "f", "codes": [11, 25, 0], "calculate": "november 25th"
+        },
+        "ptr0172": {
+            "country": "PT", "extent": "regional", "label": "Senhor Santo Cristo dos Milagres", 
+            "type": "e", "codes": [36, 0, 0], "calculate": "fifth monday after easter"
+        },
+        "ptr0173": {
+            "country": "PT", "extent": "regional", "label": "Nossa Senhora Mae de Deus", 
+            "type": "e", "codes": [61, 0, 0], "calculate": "friday after Corpus Crist"
+        },
+        "ptr0174": {
+            "country": "PT", "extent": "regional", "label": "Senhor Santo Cristo dos Milagres", 
+            "type": "m", "codes": [8, 2, 0], "calculate": "monday after second sunday of august"
+        }
+    },
+    "regions": {
+        "ES": {
+            "andalucia": ["esr0001"],
+            "aragon": ["esr0005", "esr0006"],
+            "canarias": ["esr0006", "esr0010"],
+            "cantabria": ["esr0011"],
+            "castilla e leon": ["esr0003", "esr0010"],
+            "castilla la mancha": ["esr0003", "esr0009"],
+            "cataluna": ["esr0006"],
+            "extremadura": ["esr0003"],
+            "galicia": ["esr0003", "esr0010"],
+            "islas_baleares": ["esr0002"],
+            "madrid": ["esr0003", "esr0007", "esr0008", "esr0009", "esr0012"],
+            "melilla": ["esr0003"],
+            "murcia": ["esr0003"],
+            "navarra": ["esr0003"],
+            "pais_vasco": ["esr0003"],
+            "valencia": ["esr0003", "esr0009", "esr0010"]
+        },
+        "PT": {
+            "aveiro": {
+                "agueda": ["ptr0001"],
+                "albergaria-a-velha": ["ptr0002"],
+                "anadia": ["ptr0003"],
+                "arouca": ["ptr0004"],
+                "aveiro": ["ptr0005"],
+                "castelo-de-paiva": ["ptr0006"],
+                "espinho": ["ptr0007"],
+                "estarreja": ["ptr0008"],
+                "santa-maria-da-feira": ["ptr0009"],
+                "ilhavo": ["ptr0010"],
+                "mealhada": ["ptr0003"],
+                "murtosa": ["ptr0011"],
+                "oliveira-de-azemeis": ["ptr0012"],
+                "oliveira-do-bairro": ["ptr0003"],
+                "ovar": ["ptr0013"],
+                "sao-joao-da-madeira": ["ptr0014"],
+                "sever-do-vouga": ["ptr0015"],
+                "vagos": ["ptr0016"],
+                "vale-de-cambra": ["ptr0008"]
+            },
+            "beja": {
+                "aljustrel": ["ptr0008"],
+                "almodovar": ["ptr0006"],
+                "alvito": ["ptr0003"],
+                "barrancos": ["ptr0017"],
+                "beja": ["ptr0003"],
+                "castro-verde": ["ptr0018"],
+                "cuba": ["ptr0010"],
+                "ferreira-do-alentejo": ["ptr0019"],
+                "mertola": ["ptr0006"],
+                "moura": ["ptr0006"],
+                "odemira": ["ptr0020"],
+                "ourique": ["ptr0021"],
+                "serpa": [],
+                "vidigueira": ["ptr0003"]
+            },
+            "braga": {
+                "amares": ["ptr0008"],
+                "barcelos": ["ptr0022"],
+                "braga": ["ptr0006"],
+                "cabeceiras-de-basto": ["ptr0023"],
+                "celorico-de-basto": ["ptr0024"],
+                "esposende": ["ptr0025"],
+                "fafe": ["ptr0026"],
+                "guimaraes": ["ptr0027"],
+                "povoa-de-lanhoso": ["ptr0028"],
+                "terras-de-bouro": ["ptr0029"],
+                "vieira-do-minho": ["ptr0030"],
+                "vila-nova-de-famalicao": ["ptr0008"],
+                "vila-verde": ["ptr0008"],
+                "vizela": ["ptr0028"]
+            },
+            "braganca": {
+                "alfandega-da-fe": ["ptr0018"],
+                "braganca": ["ptr0031"],
+                "carrazeda-de-ansiaes": [],
+                "freixo-de-espada-a-cinta": ["ptr0010"],
+                "macedo-de-cavaleiros": ["ptr0018"],
+                "miranda-do-douro": ["ptr0032"],
+                "mirandela": ["ptr0033"],
+                "mogadouro": ["ptr0034"],
+                "torre-de-moncorvo": ["ptr0028"],
+                "vila-flor": ["ptr0035"],
+                "vimioso": ["ptr0036"],
+                "vinhais": ["ptr0037"]
+            },
+            "castelo-branco": {
+                "belmonte": ["ptr0038"],
+                "castelo-branco": ["ptr0039"],
+                "covilha": ["ptr0040"],
+                "fundao": ["ptr0041"],
+                "idanha-a-nova": ["ptr0042"],
+                "oleiros": ["ptr0043"],
+                "penamacor": ["ptr0010"],
+                "proenca-a-nova": ["ptr0008"],
+                "serta": ["ptr0044"],
+                "vila-de-rei": ["ptr0045"],
+                "vila-velha-de-rodao": ["ptr0046"]
+            },
+            "coimbra": {
+                "arganil": ["ptr0047"],
+                "cantanhede": ["ptr0024"],
+                "coimbra": ["ptr0048"],
+                "condeixa-a-nova": ["ptr0049"],
+                "figueira-da-foz": ["ptr0006"],
+                "gois": ["ptr0050"],
+                "lousa": ["ptr0006"],
+                "mira": ["ptr0051"],
+                "miranda-do-corvo": ["ptr0052"],
+                "montemor-o-velho": ["ptr0053"],
+                "oliveira-do-hospital": ["ptr0054"],
+                "pampilhosa-da-serra": ["ptr0055"],
+                "penacova": ["ptr0056"],
+                "penela": ["ptr0023"], 
+                "soure": ["ptr0015"],
+                "tabua": ["ptr0057"],
+                "vila-nova-de-poiares": ["ptr0058"]
+            },
+            "evora": {
+                "alandroal": ["ptr0059"],
+                "arraiolos": ["ptr0003"],
+                "borba": ["ptr0010"],
+                "estremoz": ["ptr0003"],
+                "evora": ["ptr0018"],
+                "montemor-o-novo": ["ptr0060"],
+                "mora": ["ptr0010"],
+                "mourao": ["ptr0061"],
+                "portel": ["ptr0010"],
+                "redondo": ["ptr0010"],
+                "reguengos-de-monsaraz": ["ptr0008"],
+                "vendas-novas": ["ptr0062"],
+                "viana-do-alentejo": ["ptr0058"],
+                "vila-vicosa": ["ptr0063"]
+            },
+            "faro": {
+                "albufeira": ["ptr0064"],
+                "alcoutim": ["ptr0065"],
+                "aljezur": ["ptr0066"],
+                "castro-marim": ["ptr0006"],
+                "faro": ["ptr0067"],
+                "lagoa": ["ptr0068"],
+                "lagos": ["ptr0069"],
+                "loule": ["ptr0003"],
+                "monchique": ["ptr0003"],
+                "olhao": ["ptr0070"],
+                "portimao": ["ptr0071"],
+                "quarteira": ["ptr0003"],
+                "sao-bras-de-alportel": ["ptr0072"],
+                "silves": ["ptr0073"],
+                "tavira": ["ptr0006"],
+                "vila-do-bispo": ["ptr0074"],
+                "vila-real-de-santo-antonio": ["ptr0075"]
+            },
+            "guarda": {
+                "aguiar-da-beira": ["ptr0076"],
+                "almeida": ["ptr0076"],
+                "celorico-da-beira": ["ptr0078"],
+                "figueira-de-castelo-rodrigo": ["ptr0079"],
+                "fornos-de-algodres": ["ptr0023"],
+                "gouveia": ["ptr0080"],
+                "guarda": ["ptr0081"],
+                "manteigas": ["ptr0082"],
+                "meda": ["ptr0083"],
+                "pinhel": ["ptr0084"],
+                "sabugal": ["ptr0085"],
+                "seia": ["ptr0086"],
+                "trancoso": ["ptr0087"],
+                "vila-nova-de-foz-coa": ["ptr0088"]
+            },
+            "leiria": {
+                "alcobaca": ["ptr0089"],
+                "alvaiazere": ["ptr0008"],
+                "ansiao": ["ptr0003"],
+                "batalha": ["ptr0090"],
+                "bombarral": ["ptr0018"],
+                "caldas-da-rainha": ["ptr0091"],
+                "castanheira-de-pera": ["ptr0092"],
+                "figueiro-dos-vinhos": ["ptr0006"],
+                "leiria": ["ptr0093"],
+                "marinha-grande": ["ptr0003"],
+                "nazare": ["ptr0094"],
+                "obidos": ["ptr0095"],
+                "pedrogao-grande": ["ptr0096"],
+                "peniche": ["ptr0097"],
+                "pombal": ["ptr0083"],
+                "porto-de-mos": ["ptr0018"]
+            },
+            "lisboa": {
+                "alenquer": ["ptr0003"],
+                "arruda-dos-vinhos": ["ptr0003"],
+                "azambuja": ["ptr0003"],
+                "cadaval": ["ptr0058"],
+                "cascais": ["ptr0008"],
+                "lisboa": ["ptr0008"],
+                "loures": ["ptr0098"],
+                "lourinha": ["ptr0006"],
+                "mafra": ["ptr0003"],
+                "oeiras": ["ptr0099"],
+                "sintra": ["ptr0018"],
+                "sobral-de-monte-agraco": ["ptr0003"],
+                "torres-vedras": ["ptr0083"],
+                "vila-franca-de-xira": ["ptr0003"],
+                "amadora": ["ptr0100"],
+                "odivelas": ["ptr0101"]
+            },
+            "portalegre": {
+                "alter-do-chao": ["ptr0003"],
+                "arronches": ["ptr0006"],
+                "avis": ["ptr0010"],
+                "campo-maior": ["ptr0010"],
+                "castelo-de-vide": ["ptr0102"],
+                "crato": ["ptr0103"],
+                "elvas": ["ptr0104"],
+                "fronteira": ["ptr0105"],
+                "gaviao": ["ptr0106"],
+                "marvao": ["ptr0107"],
+                "monforte": ["ptr0108"],
+                "nisa": ["ptr0109"],
+                "ponte-de-sor": ["ptr0010"],
+                "portalegre": ["ptr0110"],
+                "sousel": ["ptr0111"]
+            },
+            "porto": {
+                "amarante": ["ptr0112"],
+                "baiao": ["ptr0035"],
+                "felgueiras": ["ptr0018"],
+                "gondomar": ["ptr0113"],
+                "lousada": ["ptr0114"],
+                "maia": ["ptr0115"],
+                "marco-de-canaveses": ["ptr0116"],
+                "matosinhos": ["ptr0117"],
+                "pacos-de-ferreira": ["ptr0118"],
+                "paredes": ["ptr0119"],
+                "penafiel": ["ptr0083"],
+                "porto": ["ptr0006"],
+                "povoa-de-varzim": ["ptr0018"],
+                "santo-tirso": ["ptr0120"],
+                "valongo": ["ptr0006"],
+                "vila-do-conde": ["ptr0006"],
+                "vila-nova-de-gaia": ["ptr0006"],
+                "trofa": ["ptr0101"]
+            },
+            "santarem": {
+                "abrantes": ["ptr0121"],
+                "alcanena": ["ptr0003"],
+                "almeirim": ["ptr0003"],
+                "alpiarca": ["ptr0122"],
+                "benavente": ["ptr0003"],
+                "cartaxo": ["ptr0003"],
+                "chamusca": ["ptr0003"],
+                "constancia": ["ptr0123"],
+                "coruche": ["ptr0124"],
+                "entroncamento": ["ptr0125"],
+                "fatima": ["ptr0126"],
+                "ferreira-do-zezere": ["ptr0008"],
+                "golega": ["ptr0003"],
+                "macao": ["ptr0010"],
+                "rio-maior": ["ptr0118"],
+                "salvaterra-de-magos": ["ptr0003"],
+                "santarem": ["ptr0028"],
+                "sardoal": ["ptr0127"],
+                "tomar": ["ptr0128"],
+                "torres-novas": ["ptr0003"],
+                "vila-nova-da-barquinha": ["ptr0008"],
+                "ourem": ["ptr0129"]
+            },
+            "setubal": {
+                "alcacer-do-sal": ["ptr0006"],
+                "alcochete": ["ptr0006"],
+                "almada": ["ptr0006"],
+                "barreiro": ["ptr0130"],
+                "grandola": ["ptr0131"],
+                "moita": ["ptr0132"],
+                "montijo": ["ptr0018"],
+                "palmela": ["ptr0133"],
+                "santiago-do-cacem": ["ptr0024"],
+                "seixal": ["ptr0018"],
+                "sesimbra": ["ptr0134"],
+                "setubal": ["ptr0135"],
+                "sines": ["ptr0136"]
+            },
+            "viana-do-castelo": {
+                "arcos-de-valdevez": ["ptr0120"],
+                "caminha": ["ptr0010"],
+                "melgaco": ["ptr0003"],
+                "moncao": ["ptr0137"],
+                "paredes-de-coura": ["ptr0036"],
+                "ponte-da-barca": ["ptr0035"],
+                "ponte-de-lima": ["ptr0138"],
+                "valenca": ["ptr0139"],
+                "viana-do-castelo": ["ptr0140"],
+                "vila-nova-de-cerveira": ["ptr0141"]
+            },
+            "vila-real": {
+                "alijo": ["ptr0083"],
+                "boticas": ["ptr0118"],
+                "chaves": ["ptr0142"],
+                "mesao-frio": ["ptr0143"],
+                "mondim-de-basto": ["ptr0024"],
+                "montalegre": ["ptr0144"],
+                "murca": ["ptr0145"],
+                "peso-da-regua": ["ptr0146"],
+                "ribeira-de-pena": ["ptr0146"],
+                "sabrosa": ["ptr0147"],
+                "santa-marta-de-penaguiao": ["ptr0058"],
+                "valpacos": ["ptr0118"],
+                "vila-pouca-de-aguiar": ["ptr0148"],
+                "vila-real": ["ptr0008"]
+            },
+            "viseu": {
+                "armamar": ["ptr0006"],
+                "carregal-do-sal": ["ptr0149"],
+                "castro-daire": ["ptr0018"],
+                "cinfaes": ["ptr0006"],
+                "lamego": ["ptr0150"],
+                "mangualde": ["ptr0151"],
+                "moimenta-da-beira": ["ptr0006"],
+                "mortagua": ["ptr0003"],
+                "nelas": ["ptr0006"],
+                "oliveira-de-frades": ["ptr0152"],
+                "penalva-do-castelo": ["ptr0153"],
+                "penedono": ["ptr0018"],
+                "resende": ["ptr0023"],
+                "santa-comba-dao": ["ptr0003"],
+                "sao-joao-da-pesqueira": ["ptr0006"],
+                "sao-pedro-do-sul": ["ptr0018"],
+                "satao": ["ptr0089"],
+                "sernancelhe": ["ptr0154"],
+                "tabuaco": ["ptr0006"],
+                "tarouca": ["ptr0023"],
+                "tondela": ["ptr0155"],
+                "vila-nova-de-paiva": ["ptr0156"],
+                "viseu": ["ptr0015"],
+                "vouzela": ["ptr0157"]
+            },
+            "madeira": {
+                "santa-cruz": ["ptr0158"],
+                "ponta-do-sol": ["ptr0068"],
+                "porto-moniz": ["ptr0159"],
+                "ribeira-brava": ["ptr0018"],
+                "calheta": ["ptr0006"],
+                "porto-santo": ["ptr0160"],
+                "santana": ["ptr0161"],
+                "sao-vicente": ["ptr0074"],
+                "funchal": ["ptr0162"],
+                "camara-de-lobos": ["ptr0163"],
+                "machico": ["ptr0164"]
+            },
+            "acores": {
+                "sao-roque-do-pico": ["ptr0165"],
+                "madalena": ["ptr0159"],
+                "ribeira-grande": ["ptr0018"],
+                "lajes-do-pico": ["ptr0166"],
+                "angra-do-heroismo": ["ptr0006"],
+                "horta": ["ptr0006"],
+                "santa-cruz-das-flores": ["ptr0006"],
+                "vila-franca-do-campo": ["ptr0006"],
+                "vila-do-porto": ["ptr0006"],
+                "praia-da-vitoria": ["ptr0129"],
+                "vila-nova-do-corvo": ["ptr0167"],
+                "lagoa": ["ptr0168"],
+                "velas": ["ptr0169"],
+                "nordeste": ["ptr0170"],
+                "calheta": ["ptr0171"],
+                "ponta-delgada": ["ptr0172"],
+                "povoacao": ["ptr0173"],
+                "santa-cruz-da-graciosa": ["ptr0174"]
+             }
+        }
+    }
+}
