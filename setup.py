@@ -31,7 +31,6 @@ if __name__ == '__main__':
             '':['holidays.json']
         },
         install_requires=[
-            'python-dateutil>=2.8.1',
             'pandas>=1.2.2',
         ],
         extras_require={

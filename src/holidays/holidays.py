@@ -10,10 +10,11 @@ import json
 from functools import wraps
 from typing import Union, Optional
 from datetime import datetime, timedelta
-from dateutil.easter import easter
 import calendar
 
 import pandas as pd
+
+from utils import easter
 
 
 # DECLARE TYPE VARIABLES
