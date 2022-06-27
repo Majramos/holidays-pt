@@ -8,18 +8,16 @@ Module to calculate the holidays for a date range
 import itertools
 import json
 from functools import wraps
-
+from typing import Union, Optional
 from datetime import datetime, timedelta
 from dateutil.easter import easter
 import calendar
-
-from typing import List, Dict, Union, Set, Optional
 
 import pandas as pd
 
 
 # DECLARE TYPE VARIABLES
-ListorStr = Union[str, List[str]]
+ListorStr = Union[str, list[str]]
 
 
 # weeks days accoding to the iso norm
@@ -65,8 +63,8 @@ def _validate_inputs(inputs, compare):
         raise Exception(f'The input {inputs} is not supported. Please choose from: {compare}')
 
 
-def _select_regional(country: List[str], *, level1: Optional[List[str]] = None,
-                     level2: Optional[List[str]] = None, as_list: bool = True) -> List[str]:
+def _select_regional(country: list[str], *, level1: Optional[list[str]] = None,
+                     level2: Optional[list[str]] = None, as_list: bool = True) -> list[str]:
     """ Select all the required regional holidays by location.
 
     Parameters
@@ -119,7 +117,7 @@ def to_datetime(d: datetime) -> datetime:
     return datetime(d.year, d.month, d.day)
 
 
-def _calculate_holiday(year: int, check: str, keys: List[int]) -> datetime:
+def _calculate_holiday(year: int, check: str, keys: list[int]) -> datetime:
     """ Calculate the holiday for a given year.
 
     Parameters
@@ -216,7 +214,7 @@ class Holidays:
         self._start_date: datetime = datetime.strptime(start_date, self._date_format)
         self._end_date: datetime = datetime.strptime(end_date, self._date_format)
 
-        self.years: Set[int] = set(
+        self.years: set[int] = set(
             [self._start_date.year] + list(range(self._start_date.year, self._end_date.year+1))
         )
 
@@ -253,7 +251,7 @@ class Holidays:
 
         self.holidays = self.holidays.sort_values('date').reset_index(drop=True)
 
-    def _select_cols(self, *, drop: List[str] = []) -> pd.DataFrame:
+    def _select_cols(self, *, drop: list[str] = []) -> pd.DataFrame:
         """ Drop any columns that are not needed """
         columns = {'country', 'extent', 'label', 'calculate'}
         if drop:
@@ -270,7 +268,7 @@ class Holidays:
         return self._select_cols(**kwargs)
 
     @check_holidays
-    def as_list(self, date_str: bool = True, **kwargs) -> List[List[str]]:
+    def as_list(self, date_str: bool = True, **kwargs) -> list[list[str]]:
         """ Returns calculated holidays a a list of dated in string format. """
 
         output = self._select_cols(**kwargs)
@@ -346,7 +344,7 @@ class Holidays:
         else:
             raise Exception('Freq input not reconized, please choose W: week, M: month, Y: year')
 
-    def leap_years(self) -> Dict[int, bool]:
+    def leap_years(self) -> dict[int, bool]:
         """ Check if years are leap years or not. """
         return {i: calendar.isleap(i) for i in self.years}
 
