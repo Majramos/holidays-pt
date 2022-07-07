@@ -1,33 +1,55 @@
 #!/usr/bin/env python
-# coding: utf-8
+# -*- coding: utf-8 -*-
+#
+#  codes.py
+#  
+#  Copyright 2022 Marco Ramos <majramos@gmail.com>
+#  
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation; either version 2 of the License, or
+#  (at your option) any later version.
+#  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#  
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#  MA 02110-1301, USA.
+#  
+#  
 
 
 """
-
-
+module to store the codes used to calculate the date of the holidays
 """
 
 
-CODES = {
+from typing import Union
+
+CODES: dict[str, Union[str, list[int]]] = {
     'ptn0001': {
         'country': 'PT', 'extent': 'national', 'label': 'Ano Novo',
-                'type': 'f', 'codes': [1, 1, 0], 'calculate': 'january 1st'
+        'type': 'f', 'codes': [1, 1, 0], 'calculate': 'january 1st'
     },
     'ptn0002': {
         'country': 'PT', 'extent': 'national', 'label': 'Carnaval',
-                'type': 'e', 'codes': [-47, 0, 0], 'calculate': '47 days before easter sunday on a tuesday'
+        'type': 'e', 'codes': [-47, 0, 0], 'calculate': '47 days before easter sunday on a tuesday'
     },
     'ptn0003': {
         'country': 'PT', 'extent': 'national', 'label': 'Sexta-Feira Santa',
-                'type': 'e', 'codes': [-2, 0, 0], 'calculate': 'friday right before easter sunday'
+        'type': 'e', 'codes': [-2, 0, 0], 'calculate': 'friday right before easter sunday'
     },
     'ptn0004': {
         'country': 'PT', 'extent': 'national', 'label': 'Pascoa',
-                'type': 'e', 'codes': [0, 0, 0], 'calculate': 'easter sunday'
+        'type': 'e', 'codes': [0, 0, 0], 'calculate': 'easter sunday'
     },
     'ptn0005': {
         'country': 'PT', 'extent': 'national', 'label': '25 de Abril',
-                'type': 'f', 'codes': [4, 25, 0], 'calculate': 'april 25th'
+        'type': 'f', 'codes': [4, 25, 0], 'calculate': 'april 25th'
     },
     'ptn0006': {
         'country': 'PT', 'extent': 'national', 'label': 'Dia do Trabalhador',
