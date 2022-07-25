@@ -1,25 +1,42 @@
-# Introduction
+# Holidays
 
-Package to calculate the holidays dates from Portugal and Spain 
-
-
-
-# Getting Started
-## 1. Installation process
-```pip install --editable .```
+Package to dynamically calculate the holidays dates from Portugal
 
 
-## 2. Software dependencies
-- python>=3.8
-- python-dateutil>=2.8.1
-- pandas>=1.2.2',
+## Installation
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+git clone https://gitlab.com/majramos/holidays-pt.git
+
+cd holidays-pt
+
+pip install holidays
+```
 
 
-## 3. Latest releases
-[Release 0.1.0] - 2021-07-05
+## Usage/Examples
+```python
+import holidays
+```
 
-## 4. API references
 
+## Software dependencies
+- python>=3.9
+- pandas>=1.2.2
+
+
+## Latest releases
+[Release 0.0.1] - 2021-07-05
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
 
 
 # Notes
