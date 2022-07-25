@@ -1,3 +1,38 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=61.0.0"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "holidays"
+description = "Calculate holidays dates for Portugal"
+authors = [{ name = "Marco Ramos", email = "majramos@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3",
+    "Topic :: Utilities",
+    "Typing :: Typed"
+]
+keywords = ["holidays", "Portugal", "utilities"]
+requires-python = ">=3.9"
+dynamic = ["version", "readme"]
+dependencies = [
+    'pandas>=1.2.2'
+]
+
+[project.urls]
+homepage = "https://gitlab.com/majramos/holidays-pt"
+issues = "https://gitlab.com/majramos/holidays-pt/-/issues"
+changelog = "https://gitlab.com/majramos/holidays-pt/-/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+dev = ["pip-tools"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.dynamic]
+version = {attr = "holidays.__version__"}
+readme = {file = ["README.md"]}
