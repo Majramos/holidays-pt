@@ -4,7 +4,7 @@ Package to dynamically calculate the holidays dates from Portugal
 
 
 ## Installation
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install holidays.
 
 ```bash
 git clone https://gitlab.com/majramos/holidays-pt.git
@@ -17,7 +17,8 @@ pip install holidays
 
 ## Usage/Examples
 ```python
-import holidays
+from holidays import Holidays
+hol = holidays.Holidays('2021-01-01', '2021-12-31')
 ```
 
 
@@ -44,3 +45,5 @@ Please make sure to update tests as appropriate.
 Can return holidays in various formats: list, table, timeseries.
 
 Can calculate the count of business days for different fequencies.
+
+python -m unittest
