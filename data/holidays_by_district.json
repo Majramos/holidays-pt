@@ -1,0 +1,156 @@
+{
+    "aveiro": {
+        "agueda": ["p", 50], "albergaria-a-velha": ["c", 8, 3, 0], "anadia": ["p", 39],
+        "arouca": ["d", 5, 2], "aveiro": ["d", 5, 12], "castelo-de-paiva": ["d", 6, 24],
+        "espinho": ["d", 6, 16], "estarreja": ["d", 6, 13], "santa-maria-da-feira": ["d", 1, 20],
+        "ilhavo": ["p", 1], "mealhada": ["p", 39], "murtosa": ["d", 9, 8],
+        "oliveira-de-azemeis": ["c", 8, 2, 0], "oliveira-do-bairro": ["p", 39],
+        "ovar": ["d", 7, 25], "sao-joao-da-madeira": ["d", 10, 11], "sever-do-vouga": ["d", 9, 21],
+        "vagos": ["p", 50], "vale-de-cambra": ["d", 6, 13]
+    },
+    "beja": {
+        "aljustrel": ["d", 6, 13], "almodovar": ["d", 6, 24], "alvito": ["p", 39],
+        "barrancos": ["d", 8, 28], "beja": ["p", 39], "castro-verde": ["d", 6, 29],
+        "cuba": ["p", 1], "ferreira-do-alentejo": ["d", 3, 5], "mertola": ["d", 6, 24],
+        "moura": ["d", 6, 24], "odemira": ["d", 9, 8], "ourique": ["d", 9, 8],
+        "serpa": ["None"], "vidigueira": ["p", 39]
+    },
+    "braga": {
+        "amares": ["d", 6, 13], "barcelos": ["d", 5, 3], "braga": ["d", 6, 24],
+        "cabeceiras-de-basto": ["d", 9, 29], "celorico-de-basto": ["d", 7, 25],
+        "esposende": ["d", 8, 19], "fafe": ["d", 5, 16], "guimaraes": ["d", 6, 24],
+        "povoa-de-lanhoso": ["d", 3, 19], "terras-de-bouro": ["d", 10, 20],
+        "vieira-do-minho": ["c", 10, 1, 0], "vila-nova-de-famalicao": ["d", 6, 13],
+        "vila-verde": ["d", 6, 13], "vizela": ["d", 3, 19]
+    },
+    "braganca": {
+        "alfandega-da-fe": ["d", 6, 29], "braganca": ["d", 8, 22], "carrazeda-de-ansiaes": ["None"],
+        "freixo-de-espada-a-cinta": ["p", 1], "macedo-de-cavaleiros": ["d", 6, 29],
+        "miranda-do-douro": ["d", 7, 10], "mirandela": ["d", 5, 25], "mogadouro": ["d", 10, 15],
+        "torre-de-moncorvo": ["d", 3, 19], "vila-flor": ["d", 8, 24], "vimioso": ["d", 8, 10],
+        "vinhais": ["d", 5, 20]
+    },
+    "castelo-branco": {
+        "belmonte": ["d", 4, 26], "castelo-branco": ["p", 9], "covilha": ["d", 10, 20],
+        "fundao": ["d", 9, 15], "idanha-a-nova": ["p", 15], "oleiros": ["c", 8, 2, 0],
+        "penamacor": ["p", 1], "proenca-a-nova": ["d", 6, 13], "serta": ["d", 6, 24],
+        "vila-de-rei": ["d", 9, 19], "vila-velha-de-rodao": ["c", 8, 4, 0]
+    },
+    "coimbra": {
+        "arganil": ["d", 9, 7], "cantanhede": ["d", 7, 25], "coimbra": ["d", 7, 4],
+        "condeixa-a-nova": ["d", 7, 24], "figueira-da-foz": ["d", 6, 24], "gois": ["d", 8, 13],
+        "lousa": ["d", 6, 24], "mira": ["d", 7, 25], "miranda-do-corvo": ["d", 6, 1],
+        "montemor-o-velho": ["d", 9, 8], "oliveira-do-hospital": ["d", 10, 7],
+        "pampilhosa-da-serra": ["d", 4, 10], "penacova": ["d", 7, 17], "penela": ["d", 9, 29],
+        "soure": ["d", 9, 21], "tabua": ["d", 4, 10], "vila-nova-de-poiares": ["d", 1, 13]
+    },
+    "evora": {
+        "alandroal": ["p", 8], "arraiolos": ["p", 39], "borba": ["p", 1], "estremoz": ["p", 39],
+        "evora": ["d", 6, 29], "montemor-o-novo": ["d", 3, 8], "mora": ["p", 1],
+        "mourao": ["d", 2, 2], "portel": ["p", 1], "redondo": ["p", 1],
+        "reguengos-de-monsaraz": ["d", 6, 13], "vendas-novas": ["d", 9, 7],
+        "viana-do-alentejo": ["d", 1, 13], "vila-vicosa": ["d", 8, 16]
+    },
+    "faro": {
+        "albufeira": ["d", 8, 20], "alcoutim": ["c", 9, 1, 4], "aljezur": ["d", 8, 29],
+        "castro-marim": ["d", 6, 24], "faro": ["d", 9, 7], "lagoa": ["d", 9, 8],
+        "lagos": ["d", 10, 27], "loule": ["p", 39], "monchique": ["p", 39], "olhao": ["d", 6, 16],
+        "portimao": ["d", 12, 11], "quarteira": ["p", 39], "sao-bras-de-alportel": ["d", 6, 1],
+        "silves": ["d", 9, 3], "tavira": ["d", 6, 24], "vila-do-bispo": ["d", 1, 22],
+        "vila-real-de-santo-antonio": ["d", 5, 13]
+    },
+    "guarda": {
+        "aguiar-da-beira": ["d", 2, 10], "almeida": ["d", 7, 2], "celorico-da-beira": ["d", 5, 23],
+        "figueira-de-castelo-rodrigo": ["d", 7, 7], "fornos-de-algodres": ["d", 9, 29],
+        "gouveia": ["c", 8, 2, 0], "guarda": ["d", 11, 27], "manteigas": ["d", 3, 4],
+        "meda": ["d", 11, 11], "pinhel": ["d", 8, 25], "sabugal": ["p", 8], "seia": ["d", 7, 3],
+        "trancoso": ["d", 5, 29], "vila-nova-de-foz-coa": ["d", 5, 21]
+    },
+    "leiria": {
+        "alcobaca": ["d", 8, 20], "alvaiazere": ["d", 6, 13], "ansiao": ["p", 39],
+        "batalha": ["d", 8, 14], "bombarral": ["d", 6, 29], "caldas-da-rainha": ["d", 5, 15],
+        "castanheira-de-pera": ["d", 7, 4], "figueiro-dos-vinhos": ["d", 6, 24],
+        "leiria": ["d", 5, 22], "marinha-grande": ["p", 39], "nazare": ["d", 9, 8],
+        "obidos": ["d", 1, 11], "pedrogao-grande": ["d", 7, 24],
+        "peniche": ["c", 8, 1, 0], "pombal": ["d", 11, 11], "porto-de-mos": ["d", 6, 29]
+    },
+    "lisboa": {
+        "alenquer": ["p", 39], "arruda-dos-vinhos": ["p", 39], "azambuja": ["p", 39],
+        "cadaval": ["d", 1, 13], "cascais": ["d", 6, 13], "lisboa": ["d", 6, 13],
+        "loures": ["d", 8, 26], "lourinha": ["d", 6, 24], "mafra": ["p", 39], "oeiras": ["d", 6, 7],
+        "sintra": ["d", 6, 29], "sobral-de-monte-agraco": ["p", 39], "torres-vedras": ["d", 11, 11],
+        "vila-franca-de-xira": ["p", 39], "amadora": ["d", 9, 11], "odivelas": ["d", 11, 19]
+    },
+    "portalegre": {
+        "alter-do-chao": ["p", 39], "arronches": ["d", 6, 24], "avis": ["p", 1],
+        "campo-maior": ["p", 1], "castelo-de-vide": ["p", 1], "crato": ["p", 1],
+        "elvas": ["d", 1, 14], "fronteira": ["d", 4, 6], "gaviao": ["d", 11, 23],
+        "marvao": ["d", 9, 8], "monforte": ["p", 8], "nisa": ["p", 1], "ponte-de-sor": ["p", 1],
+        "portalegre": ["d", 5, 23], "sousel": ["p", 1]
+    },
+    "porto": {
+        "amarante": ["d", 7, 8], "baiao": ["d", 8, 24], "felgueiras": ["d", 6, 29],
+        "gondomar": ["c", 10, 1, 0], "lousada": ["e", 7], "maia": ["c", 7, 2, 0],
+        "marco-de-canaveses": ["d", 9, 8], "matosinhos": ["p", 51],
+        "pacos-de-ferreira": ["d", 11, 6], "paredes": ["c", 7, 3, 0], "penafiel": ["d", 11, 11],
+        "porto": ["d", 6, 24], "povoa-de-varzim": ["d", 6, 29], "santo-tirso": ["d", 7, 11],
+        "valongo": ["d", 6, 24], "vila-do-conde": ["d", 6, 24], "vila-nova-de-gaia": ["d", 6, 24],
+        "trofa": ["d", 11, 19]
+    },
+    "santarem": {
+        "abrantes": ["d", 6, 14], "alcanena": ["p", 39], "almeirim": ["p", 39],
+        "alpiarca": ["d", 4, 2], "benavente": ["p", 39], "cartaxo": ["p", 39],
+        "chamusca": ["p", 39], "constancia": ["p", 1], "coruche": ["d", 8, 17],
+        "entroncamento": ["d", 11, 24], "fatima": ["d", 5, 13],
+        "ferreira-do-zezere": ["d", 6, 13], "golega": ["p", 39], "macao": ["p", 1],
+        "rio-maior": ["d", 11, 6], "salvaterra-de-magos": ["p", 39], "santarem": ["d", 3, 19],
+        "sardoal": ["d", 9, 22], "tomar": ["d", 3, 1], "torres-novas": ["p", 39],
+        "vila-nova-da-barquinha": ["d", 6, 13], "ourem": ["d", 6, 20]
+    },
+    "setubal": {
+        "alcacer-do-sal": ["d", 6, 24], "alcochete": ["d", 6, 24], "almada": ["d", 6, 24],
+        "barreiro": ["d", 6, 28], "grandola": ["d", 10, 22], "moita": ["c", 9, 2, 1],
+        "montijo": ["d", 6, 29], "palmela": ["d", 6, 1], "santiago-do-cacem": ["d", 7, 25],
+        "seixal": ["d", 6, 29], "sesimbra": ["d", 5, 4], "setubal": ["d", 9, 15],
+        "sines": ["d", 11, 24]
+    },
+    "viana-do-castelo": {
+        "arcos-de-valdevez": ["d", 7, 11], "caminha": ["p", 1], "melgaco": ["p", 39],
+        "moncao": ["d", 3, 12], "paredes-de-coura": ["d", 8, 10], "ponte-da-barca": ["d", 8, 24],
+        "ponte-de-lima": ["d", 9, 20], "valenca": ["d", 2, 18],
+        "viana-do-castelo": ["d", 8, 20], "vila-nova-de-cerveira": ["d", 10, 1]
+    },
+    "vila-real": {
+        "alijo": ["d", 11, 11], "boticas": ["d", 11, 6], "chaves": ["d", 7, 8],
+        "mesao-frio": ["d", 11, 30], "mondim-de-basto": ["d", 7, 25], "montalegre": ["d", 6, 9],
+        "murca": ["d", 5, 8], "peso-da-regua": ["d", 8, 16], "ribeira-de-pena": ["d", 8, 16],
+        "sabrosa": ["d", 9, 8], "santa-marta-de-penaguiao": ["d", 1, 13], "valpacos": ["d", 11, 6],
+        "vila-pouca-de-aguiar": ["d", 6, 22], "vila-real": ["d", 6, 13]
+    },
+    "viseu": {
+        "armamar": ["d", 6, 24], "carregal-do-sal": ["c", 7, 3, 0], "castro-daire": ["d", 6, 29],
+        "cinfaes": ["d", 6, 24], "lamego": ["d", 9, 8], "mangualde": ["d", 9, 8],
+        "moimenta-da-beira": ["d", 6, 24], "mortagua": ["p", 39], "nelas": ["d", 6, 24],
+        "oliveira-de-frades": ["d", 10, 7], "penalva-do-castelo": ["d", 8, 25],
+        "penedono": ["d", 6, 29], "resende": ["d", 9, 29], "santa-comba-dao": ["p", 39],
+        "sao-joao-da-pesqueira": ["d", 6, 24], "sao-pedro-do-sul": ["d", 6, 29],
+        "satao": ["d", 8, 20], "sernancelhe": ["d", 5, 3], "tabuaco": ["d", 6, 24],
+        "tarouca": ["d", 9, 29], "tondela": ["d", 9, 16], "vila-nova-de-paiva": ["d", 3, 2],
+        "viseu": ["d", 9, 21], "vouzela": ["d", 5, 14]
+    },
+    "madeira": {
+        "santa-cruz": ["d", 1, 15], "ponta-do-sol": ["d", 9, 8], "porto-moniz": ["d", 7, 22],
+        "ribeira-brava": ["d", 6, 29], "calheta": ["d", 6, 24], "porto-santo": ["d", 6, 24],
+        "santana": ["d", 5, 25], "sao-vicente": ["d", 1, 22], "funchal": ["d", 8, 21],
+        "camara-de-lobos": ["d", 10, 4], "machico": ["d", 10, 9]
+    },
+    "acores": {
+        "sao-roque-do-pico": ["d", 8, 16], "madalena": ["d", 7, 22], "ribeira-grande": ["d", 6, 29],
+        "lajes-do-pico": ["d", 6, 29], "angra-do-heroismo": ["d", 6, 24], "horta": ["d", 6, 24],
+        "santa-cruz-das-flores": ["d", 6, 24], "vila-franca-do-campo": ["d", 6, 24],
+        "vila-do-porto": ["d", 6, 24], "praia-da-vitoria": ["d", 6, 20],
+        "vila-nova-do-corvo": ["d", 6, 20], "lagoa": ["d", 4, 11], "velas": ["d", 4, 23],
+        "nordeste": ["d", 7, 18], "calheta": ["d", 11, 25], "ponta-delgada": ["p", 36],
+        "povoacao": ["p", 61], "santa-cruz-da-graciosa": ["c", 8, 2, 0]
+    }
+}
