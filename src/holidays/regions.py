@@ -2,25 +2,25 @@
 # -*- coding: utf-8 -*-
 #
 #  regions.py
-#  
+#
 #  Copyright 2022 Marco Ramos <majramos@gmail.com>
-#  
+#
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
 #  the Free Software Foundation; either version 2 of the License, or
 #  (at your option) any later version.
-#  
+#
 #  This program is distributed in the hope that it will be useful,
 #  but WITHOUT ANY WARRANTY; without even the implied warranty of
 #  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #  GNU General Public License for more details.
-#  
+#
 #  You should have received a copy of the GNU General Public License
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA 02110-1301, USA.
-#  
-#  
+#
+#
 
 
 """
@@ -29,7 +29,11 @@ distrito -> concelho/municipio -> codigo
 """
 
 
-REGIONS: dict[str, dict[str, list[str]]] = {
+
+from .utils import flatten
+
+
+REGIONS_CODES: dict[str, dict[str, list[str]]] = {
     'aveiro': {
         'agueda': ['ptr0001'],
         'albergaria-a-velha': ['ptr0002'],
@@ -380,3 +384,63 @@ REGIONS: dict[str, dict[str, list[str]]] = {
         'santa-cruz-da-graciosa': ['ptr0174']
     }
 }
+
+
+ls_districts: list[str] =  list(REGIONS_CODES.keys())
+ls_counties = flatten([k.keys() for k in REGIONS_CODES.values()])
+
+
+# get a dict with only the counties and respective holidays
+counties = {}
+for i in REGIONS_CODES.values():
+    for k, v in i.items():
+        counties[k] = v
+
+
+def _check_exists(source: list[str], to_check: list[str]) -> None:
+    """ Check if the given district/county is valid
+
+    TODO: add ability to check which value is wrong
+
+    Parameters
+    ----------
+    source : str, default=None
+        values which to_check is compared against, list of valid inputs
+    to_check : list of str
+        Values to check if exist in source
+    """
+
+    if set(to_check).issubset(source):
+        pass
+    else:
+        raise Exception('Input does not exist in Regions')
+
+
+def select(*, district: list[str] = [], county: list[str] = []) -> list[str]:
+    """ Select all the required regional holidays by location.
+
+    Parameters
+    ----------
+    district : str, default=None
+        Corresponds to district in Portugal in all lower case.
+    county : str, default=None
+        Corresponds to a county in Portugal in all lower case.
+
+    Returns
+    -------
+    list of strings with holidays codes
+    """
+
+    if not district and not county:
+        raise Exception('Requires either district or county')
+
+    if district:
+        _check_exists(ls_districts, district)
+        county += flatten([REGIONS_CODES[dis].keys() for dis in district])
+
+    location = []
+    _check_exists(ls_counties, county)
+    for con in county:
+        location += counties[con]
+
+    return set(location)
