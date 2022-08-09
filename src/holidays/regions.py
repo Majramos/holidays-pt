@@ -24,7 +24,7 @@
 
 
 """
-Module to store information on the distritos/concelhos and respective holidays 
+Module to store information on the distritos/concelhos and respective holidays
 distrito -> concelho/municipio -> codigo
 """
 
