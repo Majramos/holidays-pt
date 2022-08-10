@@ -813,5 +813,5 @@ def select(*, codes: Union[str, list[str]]) -> list[dict[str, Union[str, list[in
         codes = REGIONAL_CODES
     elif codes == 'all':
         codes = LS_CODES
-    else:
-        return [CODES[c] for c in codes]
+
+    return [CODES[c] for c in codes]
