@@ -30,6 +30,19 @@ Module with utility functions
 
 import itertools
 from datetime import datetime
+from enum import Enum
+
+
+
+# weeks days according to the iso norm
+class Weekday(Enum):
+    MONDAY = 1
+    TUESDAY = 2
+    WEDNESDAY = 3
+    THURSDAY = 4
+    FRIDAY = 5
+    SATURDAY = 6
+    SUNDAY = 7
 
 
 def easter(year: int) -> datetime:
@@ -48,7 +61,7 @@ def easter(year: int) -> datetime:
     # e - Extra days to add for method 2 (converting Julian
     #     date to Gregorian date)
     """
-    
+
     y = year
     g = y % 19
     e = 0

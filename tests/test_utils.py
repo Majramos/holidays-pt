@@ -26,10 +26,16 @@
 import unittest
 from datetime import datetime
 
-from holidays.utils import easter, flatten
+from holidays.utils import easter, flatten, Weekday
 
 
 class TestUtils(unittest.TestCase):
+
+    def test_weekday_value(self):
+        self.assertEqual(Weekday.TUESDAY.value, 2)
+
+    def test_weekday_name(self):
+        self.assertEqual(Weekday(3).name, 'WEDNESDAY')
 
     def test_easter(self):
         self.assertEqual(easter(2020), datetime(2020, 4, 12, 0, 0))
