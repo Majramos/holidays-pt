@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "holidays"
 description = "Calculate holidays dates for Portugal"
 authors = [{ name = "Marco Ramos", email = "majramos@gmail.com" }]
-license = { file = "LICENSE" }
+license = { file = "LICENSE.md" }
 classifiers = [
     "Operating System :: OS Independent",
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
@@ -18,9 +18,7 @@ classifiers = [
 keywords = ["holidays", "Portugal", "utilities"]
 requires-python = ">=3.9"
 dynamic = ["version", "readme"]
-dependencies = [
-    'pandas>=1.2.2'
-]
+dependencies = []
 
 [project.urls]
 homepage = "https://gitlab.com/majramos/holidays-pt"
