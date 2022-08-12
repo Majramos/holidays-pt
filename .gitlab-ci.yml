@@ -9,6 +9,7 @@ test_cov:
     tags:
         - docker
     script:
+        - pip install .
         - pip install coverage
         - coverage run -m unittest
         - coverage report
@@ -25,4 +26,5 @@ test:
     tags:
         - docker
     script:
+        - pip install .
         - python3 -m unittest
