@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#  setup.py.py
+#  test_regions.py
 #
 #  Copyright 2022 Marco Ramos <majramos@gmail.com>
 #
@@ -23,13 +23,28 @@
 #
 
 
-"""
-Required for editable installs for development
-"""
+import unittest
+
+from holidays.regions import _check_exists, ls_districts, select
 
 
-import setuptools
+
+class TestRegions(unittest.TestCase):
+
+    def test_check_exists_pass(self):
+        self.assertIsNone(_check_exists(ls_districts, ['aveiro']))
+
+    def test_check_exists_fail(self):
+        self.assertRaises(Exception, lambda: _check_exists(ls_districts, ['fail']))
+
+    def test_select(self):
+        to_check = {
+            'ptr0001', 'ptr0002', 'ptr0003', 'ptr0004', 'ptr0005', 'ptr0006',
+            'ptr0007', 'ptr0008', 'ptr0009', 'ptr0010', 'ptr0011', 'ptr0012',
+            'ptr0013', 'ptr0014', 'ptr0015', 'ptr0016', 'ptr0031'
+        }
+        self.assertEqual(select(district=['aveiro'], county=['braganca']), to_check)
 
 
-if __name__ == "__main__":
-    setuptools.setup()
+if __name__ == '__main__':
+    unittest.main()

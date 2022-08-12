@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#  setup.py.py
+#  test_utils.py
 #
 #  Copyright 2022 Marco Ramos <majramos@gmail.com>
 #
@@ -23,13 +23,26 @@
 #
 
 
-"""
-Required for editable installs for development
-"""
+import unittest
+from datetime import datetime
+
+from holidays.utils import easter, flatten, Weekday
 
 
-import setuptools
+class TestUtils(unittest.TestCase):
+
+    def test_weekday_value(self):
+        self.assertEqual(Weekday.TUESDAY.value, 2)
+
+    def test_weekday_name(self):
+        self.assertEqual(Weekday(3).name, 'WEDNESDAY')
+
+    def test_easter(self):
+        self.assertEqual(easter(2020), datetime(2020, 4, 12, 0, 0))
+
+    def test_flatten(self):
+        self.assertEqual(flatten([['a', 'b'], ['c', 'd']]), ['a', 'b', 'c', 'd'])
 
 
-if __name__ == "__main__":
-    setuptools.setup()
+if __name__ == '__main__':
+    unittest.main()
