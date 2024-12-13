@@ -452,3 +452,80 @@ def get_feriados(date_range: Tuple[str, str], distance: bool = False,
             df = (df['feriados']*df['distancia']).to_frame().rename(columns={0: 'feriados'})
 
     return df
+
+    def _select_cols(self, *, drop: list[str] = []) -> pd.DataFrame:
+        """ Drop any columns that are not needed """
+        columns = {'country', 'extent', 'label', 'calculate'}
+        if drop:
+            if set(drop).issubset(columns):
+                return self.holidays.copy().drop(columns=drop)
+            else:
+                raise Exception(f' Value {drop} is not a valid column')
+        else:
+            return self.holidays
+
+@check_holidays
+def as_time_series(self, sep_region: bool = False, hot_encode: bool = False) -> pd.DataFrame:
+    """ Returns holidays as a time series were the dates of holidays are
+    a variable called holiday with the value of 1.
+
+    Parameters
+    ----------
+    sep_region : bool, default=False
+        To assign a lower value to regional holidays
+    hot_encode : bool, default=False
+        Display holidays as features and hot encoded
+
+    Notes
+    -----
+    If sep_region is True regional holidays will have a value of 0.5 while
+    national will stay at 1.
+    """
+
+    _columns = ['date', 'extent', 'label']
+
+    output = pd.concat([
+        pd.DataFrame([(self._start_date, '', ''), (self._end_date, '', '')], columns=_columns),
+        self.holidays[_columns],
+    ]).set_index('date').resample('1D').sum().replace('', 0)
+
+    if hot_encode:
+        return pd.get_dummies(output['label']).drop(columns=[0])
+    else:
+        output['holiday'] = output['label'].where(
+            (output['label'] == 0) | (output['label'] == ''), 1)
+        if sep_region:
+            output['holiday'] = output.apply(
+                lambda x: 0.5 if x['extent'] == 'regional' else x['holiday'],
+                axis=1
+            )
+        return output[['holiday']]
+
+def working_days(self, freq: str = 'W') -> pd.DataFrame:
+    """ Estimate the number of working/business days in period of time
+    specified by the param freq.
+
+    Parameters
+    ----------
+    freq : str, default='W'
+        frequency of the timeframe
+
+    Notes
+    -----
+    Acepted values are 'W' - week, 'M' - month, 'Y' - year (pandas).
+    """
+
+    if freq in ['W', 'M', 'Y']:
+        if self.holidays is None:
+            # if no holidays to be included in the timeseries
+            table = pd.DataFrame(index=pd.date_range(self._start_date, self._end_date),
+                                 columns=['holiday'], data=0)
+        else:
+            table = self.as_time_series()
+        # remove holidays and weekends
+        table = table[(table['holiday'] != 1) & (table.index.weekday < 5)]
+        return (table.groupby(pd.Grouper(freq=freq))
+                     .count()
+                     .rename(columns={'holiday': 'business_days'}))
+    else:
+        raise Exception('Freq input not reconized, please choose W: week, M: month, Y: year')
