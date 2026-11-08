@@ -47,12 +47,16 @@ files = ["src", "tests"]
 mypy_path = "src"
 explicit_package_bases = true
 
+[[tool.mypy.overrides]]
+module = ["holidays_pt.holidays.*"]
+ignore_errors = true
+
 [tool.pytest.ini_options]
-addopts = "--cov=bank_to_actualbudget --cov-report=term-missing"
+addopts = "--cov=holidays_pt --cov-report=term-missing"
 testpaths = ["tests"]
 
 [tool.coverage.run]
-source = ["bank_to_actualbudget"]
+source = ["holidays_pt"]
 omit = ["tests/*", "**/__init__.py"]
 
 [tool.coverage.report]
