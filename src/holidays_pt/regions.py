@@ -1,5 +1,6 @@
+import itertools
+
 from holidays_pt.exceptions import MissingLocationError
-from holidays_pt.utils import flatten
 
 REGIONS_CODES: dict[str, dict[str, list[str]]] = {
     "aveiro": {
@@ -354,8 +355,13 @@ REGIONS_CODES: dict[str, dict[str, list[str]]] = {
 }
 
 
+def _flatten(iterable) -> list[str]:
+    """Flatten a array of arrays"""
+    return list(itertools.chain.from_iterable(iterable))
+
+
 ls_districts: list[str] = list(REGIONS_CODES.keys())
-ls_counties = flatten([k.keys() for k in REGIONS_CODES.values()])
+ls_counties = _flatten([k.keys() for k in REGIONS_CODES.values()])
 
 
 # get a dict with only the counties and respective holidays
@@ -404,7 +410,7 @@ def select(*, district: list[str], county: list[str]) -> set[str]:
 
     if district:
         _check_exists(ls_districts, district)
-        county += flatten([REGIONS_CODES[dis].keys() for dis in district])
+        county += _flatten([REGIONS_CODES[dis].keys() for dis in district])
 
     location = []
     _check_exists(ls_counties, county)

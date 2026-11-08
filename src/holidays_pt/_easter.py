@@ -1,20 +1,9 @@
-import itertools
 from datetime import datetime
-from enum import Enum
+
+from holidays_pt.models import Year
 
 
-# weeks days according to the iso norm
-class Weekday(Enum):
-    MONDAY = 1
-    TUESDAY = 2
-    WEDNESDAY = 3
-    THURSDAY = 4
-    FRIDAY = 5
-    SATURDAY = 6
-    SUNDAY = 7
-
-
-def easter(year: int) -> datetime:
+def calculate_easter(year: Year) -> datetime:
     """Generic Easter computing method for any given year, using Western
     algorithm (revised method, in Gregorian calendar, valid in years 1583 to
     4099 as well). Code adapted/simplified from:
@@ -47,8 +36,3 @@ def easter(year: int) -> datetime:
     m = 3 + (p + 26) // 30
 
     return datetime(int(y), int(m), int(d))
-
-
-def flatten(iterable) -> list[str]:
-    """Flatten a array of arrays"""
-    return list(itertools.chain.from_iterable(iterable))

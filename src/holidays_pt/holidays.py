@@ -3,10 +3,11 @@ from datetime import datetime, timedelta
 from functools import wraps
 from typing import Any
 
+from holidays_pt._easter import calculate_easter
 from holidays_pt.codes import select as select_codes
 from holidays_pt.exceptions import MissingColumnError, NoBankHolidaysError
+from holidays_pt.models import Year
 from holidays_pt.regions import select as select_regions
-from holidays_pt.utils import easter
 
 # define a calendar with the first day of the week as monday to calculate
 # moving holidays
@@ -42,7 +43,7 @@ def _convert_codes(year: int, check: str, keys: list[int]) -> datetime:
     if check == "f":  # fix days
         return datetime(year, keys[0], keys[1])
     elif check == "e":  # holidays calculated based on easter day
-        return easter(year) + timedelta(days=keys[0])
+        return calculate_easter(Year(year)) + timedelta(days=keys[0])
     elif check == "m":  # moving holidays
         holi = CLD.monthdatescalendar(year, keys[0])[keys[1]][keys[2]]
         # TODO: remove this after checkup
