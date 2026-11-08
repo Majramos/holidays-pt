@@ -1,0 +1,34 @@
+FROM python:3.13-slim
+
+ENV SHELL=/bin/bash
+
+# install the linux libraries needed
+RUN apt-get update
+RUN apt-get install -y vim nano
+RUN apt-get clean
+
+RUN /usr/local/bin/python -m pip install --upgrade pip
+RUN pip install jupyterlab==4.6
+
+ENV PIP_DISABLE_PIP_VERSION_CHECK=1
+
+# Arguments for user and group IDs
+ARG UID=1000
+ARG GID=1000
+
+# Create a group and user with the provided IDs
+RUN groupadd -g $GID pygroup
+RUN useradd -rm -s /bin/bash -u $UID -g pygroup -G sudo pyuser
+
+USER pyuser
+
+RUN echo 'export PATH="$PATH:/home/pyuser/.local/bin"' >> home/pyuser/.bashrc
+ENV PATH="$PATH:/home/pyuser/.local/bin"
+
+# set a directory for the app
+WORKDIR /home/pyuser/notebook
+
+EXPOSE 8888
+
+# launch the notebook as the entrypoint
+CMD jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --notebook-dir=/home/pyuser/notebook --allow-root --NotebookApp.token='' --NotebookApp.password=''

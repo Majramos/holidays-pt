@@ -1,23 +1,22 @@
-[build-system]
-requires = ["setuptools>=61.0.0"]
-build-backend = "setuptools.build_meta"
-
 [project]
-name = "holidays"
-description = "Calculate holidays dates for Portugal"
-authors = [{ name = "Marco Ramos", email = "majramos@gmail.com" }]
+name = "holidays-pt"
+version = "0.1.0"
+description = "Calculate bank holidays dates for Portugal"
+readme = "README.md"
 license = { file = "LICENSE.md" }
+authors = [
+    { name = "Marco Ramos", email = "holidays_pt@marcoramos.me" }
+]
+requires-python = ">=3.13"
+
 classifiers = [
     "Operating System :: OS Independent",
-    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Programming Language :: Python :: 3 :: Only",
     "Programming Language :: Python :: 3",
     "Topic :: Utilities",
     "Typing :: Typed"
 ]
 keywords = ["holidays", "Portugal", "utilities"]
-requires-python = ">=3.9"
-dynamic = ["version", "readme"]
 dependencies = []
 
 [project.urls]
@@ -25,12 +24,50 @@ homepage = "https://gitlab.com/majramos/holidays-pt"
 issues = "https://gitlab.com/majramos/holidays-pt/-/issues"
 changelog = "https://gitlab.com/majramos/holidays-pt/-/blob/main/CHANGELOG.md"
 
-[project.optional-dependencies]
-dev = ["pip-tools"]
+[project.scripts]
+holidays-pt = "holidays_pt.cli:main"
 
-[tool.setuptools]
-package-dir = {"" = "src"}
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
 
-[tool.setuptools.dynamic]
-version = {attr = "holidays.__version__"}
-readme = {file = ["README.md"]}
+[dependency-groups]
+dev = [
+    "mypy>=1.19.1",
+    "pre-commit>=4.6.0",
+    "pytest>=9.0.3",
+    "pytest-cov>=7.0.0",
+    "pytest-mock>=3.15.1",
+    "ruff>=0.15.7",
+]
+
+[tool.mypy]
+python_version = "3.10"
+files = ["src", "tests"]
+mypy_path = "src"
+explicit_package_bases = true
+
+[[tool.mypy.overrides]]
+module = ["holidays_pt.holidays.*"]
+ignore_errors = true
+
+[tool.pytest.ini_options]
+addopts = "--cov=holidays_pt --cov-report=term-missing"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+source = ["holidays_pt"]
+omit = ["tests/*", "**/__init__.py"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+fail_under = 60
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "v$version"
+version_scheme = "pep440"
+version_provider = "uv"
+update_changelog_on_bump = true
+major_version_zero = true
