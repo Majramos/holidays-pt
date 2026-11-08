@@ -1,4 +1,13 @@
-# Holidays
+# Holidays Calculator for Protugal
+
+<div align="center">
+
+![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat)
+![Gitlab Pipeline Status](https://gitlab.com/majramos/holidays-pt/badges/main/pipeline.svg)
+![Gitlab Release](https://gitlab.com/majramos/holidays-pt/-/badges/release.svg)
+![Gitlab Coverage](https://gitlab.com/majramos/holidays-pt/badges/main/coverage.svg)
+
+</div>
 
 Package to dynamically calculate the holidays dates from Portugal, both national
 and regional holidays for each district and county.
@@ -23,14 +32,18 @@ python -m pip install git+https://gitlab.com/majramos/holidays-pt.git
 
 ## Usage/Examples
 ```python
-from holidays import Holidays
-hol = holidays.Holidays('2021-01-01', '2021-12-31')
+from holidays_pt import Holidays
+
+hol = Holidays("2021-01-01", "2021-12-31")
 hol.calculate().as_list()
-[{'extent': 'national',
-'label': 'Ano Novo',
-'calculate': 'january 1st',
-'date': datetime.datetime(2020, 1, 1, 0, 0)},
-...
+[
+    {
+        "extent": "national",
+        "label": "Ano Novo",
+        "calculate": "january 1st",
+        "date": datetime.datetime(2020, 1, 1, 0, 0),
+    },
+    ...,
 ]
 ```
 
@@ -38,15 +51,13 @@ A more complete example can be found in the [example notebook](/notebooks/exampl
 
 
 ## Software dependencies
-- python>=3.9
-
-
-## Latest releases
-[Release 0.0.2] - 2022-08-12
+- python>=3.13
 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Check [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 Please make sure to update tests as appropriate.
 
